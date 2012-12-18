@@ -1,3 +1,5 @@
+// Blur shader from: http://callumhay.blogspot.ca/2010/09/gaussian-blur-shader-glsl.html
+
 #define VERTICAL_BLUR_5
 
 uniform float sigma;     // The sigma value for the gaussian function: higher value means more blur
