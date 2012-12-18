@@ -43,8 +43,6 @@ void testApp::setup() {
     
     m_shader.load( "shaders/mainScene.vert", "shaders/mainScene.frag" );
     
-    ofSetSphereResolution(16);
-    
     setupLights();
     createRandomObjects();
 }
