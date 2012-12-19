@@ -16,3 +16,6 @@ the framerate and prevent blitting the shadow map texture to the screen for debu
 The overall scale of this scene might be a little smaller unit-wise than other OF examples. The reason
 for this is that depth buffers are limited in resolution, so it's best to set up your worlds with smaller units
 rather than larger (ie. a near/far of 0.1 to 100.0) so that you don't run into depth issues.
+
+Screenshot here:
+http://www.flickr.com/photos/85184046@N07/8283730333/in/photostream
