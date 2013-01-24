@@ -38,8 +38,8 @@ void main(void)
     float lambert = max(dot(normal, v_LightDir), 0.0);
     
     vec4 ambient = material1.ambient;
-    vec4 diffuse;
-    vec4 specular;
+    vec4 diffuse = vec4(0.0, 0.0, 0.0, 1.0);
+    vec4 specular = vec4(0.0, 0.0, 0.0, 1.0);
     
     if ( lambert > 0.0 ) {
         ambient += gl_LightSource[0].ambient;
